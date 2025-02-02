@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    font-family: var(--typography);
+}
+
+h1 {
+    color: #ffffff;
+}
+
+.button-solid__small{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    border: 0;
+    flex-shrink: 0;
+}
+
+.button-solid__large{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 32px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    padding: 12px 32px;
+    border: 0;
+    flex-shrink: 0;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar__navigation{
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar__navigation .logo{
+    background: #121212;
+    display:flex;
+    border-radius:8px ;
+    padding:16px 0 0 16px;
+}
+
+.sidebar__navigation .logo img{
+    width: 80px;
+}
+
+.sidebar nav ul{
+    padding: 0 20px 10px 20px;
+    margin-top: 20px;
+}
+
+.sidebar ul li{
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a{
+    color: #b3b3bb;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.library{
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+.library .library__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.library .library__button{
+    display: flex;
+    margin-right: 10px;
+    background-color: transparent;
+    color: #b3b3b3;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+    align-items: center;
+}
+
+.library .library__button .fa{
+    font-size: 20px;
+    font-weight: 300;
+    color: #b3b3b3;
+    margin-right: 10px;
+    padding-right: 8px;
+}
+
+.library .library__content .fa-plus{
+    margin: 0px 10px;
+}
+
+.section-playlist{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #242424;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 8px 0px;
+    padding: 16px;
+    border-radius: 6px;
+
+}
+
+.section-playlist .section-playlist__content{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-playlist .section-playlist__content .text{
+    padding-bottom: 14px;
+    color: #ffffff;
+}
+
+.section-playlist .section-playlist__content .title{
+    font-weight: 700;
+}
+
+.section-playlist .section-playlist__content .subtitle{
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+
+.sidebar .cookies{
+    margin: 25px 20px;
+}
+
+.sidebar .cookies a{
+    color: #b3b3b3;
+    font-size: 10px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.sidebar .cookies a:hover{
+    text-decoration:underline;
+}
+
+.languages .languages__button{
+    background-color: transparent;
+    border: 1px solid #878787;
+    color: #fff;
+    cursor: pointer;
+    align-items: center;
+    font-weight: 700;
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 12px;
+    width: 100%;
+}
+.disclaimer-premium{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #af2896, #509bf5);
+    border-radius: 8px;
+    padding: 16px;
+    width: 100%;
+}
+
+.disclaimer-premium .text{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.disclaimer-premium .text .disclaimer-premium__title{
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.disclaimer-premium .text .disclaimer-premium__subtitle{
+    font-weight: 500;
+    font-size: 12px;
+}
